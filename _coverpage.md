@@ -1,6 +1,6 @@
 ![logo](assets/logo.png)
 
-# Web Security Reference <small>Beta</small>
+# Web Security Reference
 
 > A non-comprehensive list, including:
 
