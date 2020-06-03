@@ -1,12 +1,12 @@
 # Open Web Application Security Project (OWASP)
 
-The [OWASP](https://owasp.org) is a nonprofit foundation that works to improve the security of software. Through community-led open source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.
+> The [OWASP](https://owasp.org) is a nonprofit foundation that works to improve the security of software. Through community-led open source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.
 
 ## OWASP Top Ten
 
 The OWASP Top 10 is a standard awareness document for web application security. It represents a broad consensus about the most critical security risks to web applications. Project has several itteration, and usual update cycle is 3 to 4 years.
 
-The most recent itteration of Top Ten:
+### The most recent itteration of Top Ten:
 
 1. Injection
 2. Broken Authentication

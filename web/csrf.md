@@ -11,20 +11,20 @@ CSRF attack is based on taking advantage of browser passing cookies and basic au
 
 ## Defenses
 
-Most common prevention measures are:
+#### Most common prevention measures are:
 
 - Stay align with REST conventions while implementing API (distinguish safe and idempotent methods)
 - Implement authentication using different schmes (web storage)
 
-CSRF Token
+#### CSRF Token
 
 The server generates some value, and transmitted it to the client. Client included this value with subsequnet request. The value should be unique, and unpredictable in order for the scheme to be secure.
 
-Validate Origin
+#### Validate Origin
 
 Modern browsers attach Origin header, which cannot be altered by client side scripts. Origin can be checked on the server. If request is coming through proxy, the origin header might be replaced with Referer.
 
-Cross-Origin Resource Sharing (CORS)
+#### Cross-Origin Resource Sharing (CORS)
 
 A mechanism to tell a browsers to give a web client application running at one origin, access to some resources from a different origin. CORS is set as a HTTP header
 

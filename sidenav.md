@@ -6,7 +6,7 @@
     - [OWASP Web Security Testing Guide](general/owasp#owasp-web-security-testing-guide)
     - [OWASP Cheat Sheet Series](general/owasp#owasp-cheat-sheet-series)
   - [Microsoft Security Development Lifecycle (SDL)](general/ms-sdl#microsoft-security-development-lifecycle-sdl)
-- [Web Application](web/README.md)
+- [Web Applications](web/README.md)
   - [Cross-Site Scripting (XSS)](web/xss#cross-site-scripting-xss)
     - [Overview](web/xss#overview)
     - [Types](web/xss#types)

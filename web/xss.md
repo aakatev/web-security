@@ -28,7 +28,7 @@ An attacker injects code in place of a text, and force application to execute it
 
 ## Defenses
 
-Most common prevention measures are:
+#### Most common prevention measures are:
 
 - Any form of user input should be treated as value, not as code
 - Sanitize data before it gets stored into persistent storage
@@ -38,11 +38,11 @@ Most common prevention measures are:
 - Don't use unescaped expressions while rendering or templating UI
 - Use only reliable third party UI and file compression libraries, providing a list of known vulnerabilities, and customer support
 
-Content Security Policy (CSP)
+#### Content Security Policy (CSP)
 
 Browsers JS engine cannot tell the difference between scripts fetched from different origins. Eventually, all the scripts get executed as single context. CSP allows to tell supported browsers which sources they could execute, and which not. CSP is set as HTTP response header.
 
-Useful CSP directives:
+#### Useful CSP directives:
 
 - child-src - whitelist frames ans workers
 - connect-src - whitelist HTTP(fetch), WS, and EventSource
